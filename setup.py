@@ -86,8 +86,8 @@ def main():
           packages=['SnmpLibrary'],
           install_requires=[
               'robotframework',
-              'pysnmp',
-              'pyasn1',
+              'pysnmp==4.4.12',
+              'pyasn1==0.4.4',
 
           ],
           cmdclass={
@@ -96,7 +96,6 @@ def main():
           test_suite='utest',
           tests_require=[
               'pytest',
-              'pyasn1',
           ]
     )
 
