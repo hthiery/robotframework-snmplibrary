@@ -96,6 +96,7 @@ def main():
           test_suite='utest',
           tests_require=[
               'pytest',
+              'pyasn1',
           ]
     )
 
