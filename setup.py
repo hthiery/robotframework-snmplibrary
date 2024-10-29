@@ -87,6 +87,7 @@ def main():
           install_requires=[
               'robotframework',
               'pysnmp',
+              'pyasn1',
 
           ],
           cmdclass={
